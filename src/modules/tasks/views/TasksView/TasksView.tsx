@@ -9,8 +9,9 @@ import { NewTaskForm } from "@/modules/tasks/components/NewTaskForm/NewTaskForm"
 import { useTasks } from "@/modules/tasks/contexts/TasksContext/TasksContext";
 import { TaskItemsSkeleton } from "@/modules/tasks/components/TaskItemsSkeleton/TaskItemsSkeleton";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Suspense } from "react";
 
-export const TasksView = () => {
+const TasksView = () => {
   const { tasks, changeCheckedStatusTaskById, isLoadTasksError } = useTasks();
 
   const {
@@ -56,3 +57,9 @@ export const TasksView = () => {
     </>
   );
 };
+
+export const TasksViewSuspense = () => (
+  <Suspense fallback={<div></div>}>
+    <TasksView />
+  </Suspense>
+);
