@@ -1,0 +1,23 @@
+.section{
+  border: 1px solid #878787;
+  background: #FBFBFB;
+  padding: 12px 12px 12px 14px;
+  border-radius: 8px;
+  justify-content: center;
+  display: flex;
+  gap: 16px;
+}
+
+.inputWrapper{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.input{
+  border: none;
+}
+
+.button{
+  cursor: pointer;
+}

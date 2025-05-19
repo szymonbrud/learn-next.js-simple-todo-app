@@ -1,0 +1,17 @@
+.checkbox{
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.checkbox:hover{
+  border: 1px solid #111;
+}
+
+.footer{
+  justify-content: flex-start;
+}
+
+.button{
+  cursor: pointer;
+}

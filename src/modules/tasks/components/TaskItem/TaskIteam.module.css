@@ -1,0 +1,32 @@
+.wrapper{
+  border: 1px solid #878787;
+  background: #FBFBFB;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px 12px 26px;
+  border-radius: 8px;
+  display: flex;
+  cursor: pointer;
+}
+
+.wrapper:hover{
+  border: 1px solid #000;
+  background: #F5F5F5;
+}
+
+.taskName{
+  font-size: 14px;
+  color: #111;
+  font-weight: 500;
+}
+
+.checkbox{
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  border: 1px solid #878787;
+}
+
+.checkbox:hover{
+  border: 1px solid #000;
+}

@@ -1,0 +1,16 @@
+.skeletonItemWrapper{
+  display: flex;
+  width: 100%;
+}
+
+.skeletonItemText{
+  width: 100%;
+  height: 50px;
+}
+
+.skeletonWrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px
+}
